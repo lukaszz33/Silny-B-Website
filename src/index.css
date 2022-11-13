@@ -38,14 +38,14 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: ; */ /* ====================== wstaw zdjęcie lub fakture =================== */
+    background-image: url(../src/assets/bg-texture.png);
 }
 
 /* =============  GENERAL STYLES =============== */
 
 .container {
     width: var(--container-width-lg);
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1,
@@ -62,7 +62,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2, 

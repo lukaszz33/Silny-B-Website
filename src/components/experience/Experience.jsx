@@ -13,24 +13,32 @@ const Experience = () => {
         <h3>Trening Siłowy</h3>
         <div className='experience__content'>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Kettlebells</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons'/>
+            <div>
+              <h4>Kettlebells</h4>
+              <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>TRX</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons' />
+            <div>
+             <h4>TRX</h4>
+             <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Trójbój Siłowy</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons'/>
+            <div>
+             <h4>Trójbój Siłowy</h4>
+             <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Kulturystyka</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons' />
+            <div>
+             <h4>Kulturystyka</h4>
+             <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
         </div>
       </div>
@@ -38,24 +46,32 @@ const Experience = () => {
       <h3>Kondycyjny</h3>
         <div className='experience__content'>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Triatlon</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons'/>
+            <div>
+              <h4>Triatlon</h4>
+              <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Maratony</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons'/>
+            <div>
+             <h4>Maratony</h4>
+              <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Crossfit</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons' />
+            <div>
+             <h4>Crossfit</h4>
+             <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
           <article className='experience__details'>
-            <BsCheckCircleFill />
-            <h4>Pływanie</h4>
-            <small className='text-light'>Zaawansowany</small>
+            <BsCheckCircleFill className='experience__details-icons' />
+            <div>
+              <h4>Pływanie</h4>
+              <small className='text-light'>Zaawansowany</small>
+            </div>
           </article>
         </div>
         </div>
