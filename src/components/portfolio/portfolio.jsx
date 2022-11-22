@@ -10,68 +10,68 @@ import IMG6 from '../../assets/portfolio6.jpg'
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Współpraca Online</h5>
+      <h2>Programy Treningowe</h2>
 
       <div className='container portfolio__container'>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma w Domu / Kettlebells</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma w Domu / Bodyweight</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma w Domu / TRX & Kettlebells</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG4} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma na Siłowni / Powerbuilding</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG5} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma na siłowni / Pośladki 3.0</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
+            <img src={IMG6} alt="" />
           </div>
-          <h3>This is portfolio item title</h3>
+          <h3>Forma na siłowni / FBW</h3>
           <div className="portfolio__item-cta">
-           <a href="https://github.com" className='btn' target='__black'>Github</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>Live Demo</a>
+           <a href="https://github.com" className='btn' target='__black'>Kup Program</a>
+           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
       </div>
