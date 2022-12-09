@@ -1,0 +1,34 @@
+.container.newsletter__container {
+    display: grid;
+    align-items: center;
+    padding: 4rem;
+    height: 10rem;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+
+}
+
+.newsletter-form-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* ================= MEDIA QUERIES TABLET  ================ */
+
+@media screen and (max-width: 1024px) {
+    .container.nesletter__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ================= MEDIA QUERIES PHONE  ================ */
+
+@media  screen and (max-width: 600px) {
+    .container.newsletter__container {
+        width: var(--container-width-sm);
+    }
+}

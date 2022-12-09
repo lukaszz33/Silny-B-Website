@@ -36,7 +36,7 @@ const About = () => {
             <article className='about__card'>
               <BiDumbbell className='about__icon'/>
               <h5>Specjalizacje</h5>
-              <small>Moje Specjalizacje</small>
+              <small>Trening siłowy i kondycyjny</small>
             </article>
           </div>
 

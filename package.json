@@ -1,19 +1,26 @@
 {
   "name": "react-strona-silnybadz",
+  "homepage": "http://silnybadz.pl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "html-entities": "^2.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
+    "react-mailchimp-subscribe": "^2.1.3",
     "react-scripts": "5.0.1",
+    "request": "^2.88.2",
     "swiper": "^8.4.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "dev": "NODE_OPTIONS='--inspect' next dev",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,5 +43,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszz33/Silny-B-d-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszz33/Silny-B-d-Website/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
