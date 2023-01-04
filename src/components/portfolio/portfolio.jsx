@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.jpg'
 import IMG6 from '../../assets/portfolio6.jpg'
+import Oferta from '../../assets/oferta.pdf'
 
 const portfolio = () => {
   return (
@@ -21,7 +22,7 @@ const portfolio = () => {
           <h3>Kettlebells</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+            <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -31,7 +32,7 @@ const portfolio = () => {
           <h3>Bodyweight</h3>
           <div className="portfolio__item-cta">
            <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+           <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -41,7 +42,7 @@ const portfolio = () => {
           <h3>TRX & Kettlebells</h3>
           <div className="portfolio__item-cta">
            <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+           <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -51,7 +52,7 @@ const portfolio = () => {
           <h3>Powerbuilding</h3>
           <div className="portfolio__item-cta">
            <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+           <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -61,7 +62,7 @@ const portfolio = () => {
           <h3>Pośladki 3.0</h3>
           <div className="portfolio__item-cta">
            <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+           <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
         <article className='portfolio__item'>
@@ -71,7 +72,7 @@ const portfolio = () => {
           <h3>Full Body</h3>
           <div className="portfolio__item-cta">
            <a href="https://github.com" className='btn' target='__black'>Zobacz Opis</a>
-           <a href="https://github.com" className='btn btn-primary' target='__black'>7 Dni FREE</a>
+           <a href={Oferta} download className='btn btn-primary' target='__black'>7 Dni FREE</a>
           </div>
         </article>
       </div>

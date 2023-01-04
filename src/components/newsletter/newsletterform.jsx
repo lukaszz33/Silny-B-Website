@@ -11,15 +11,15 @@ const NewsletterForm = ( { status, message, onValidated }) => {
 
     setError(null);
 
-    if ( ! email ) {
-      setError( 'Please enter a valid email address' );
-      return null;
-    }
+    // if ( ! email ) {
+    //   setError( 'Please enter a valid email address' );
+    //   return null;
+    // }
 
-    const isFormValidated = onValidated({ EMAIL: email });
+    onValidated({ EMAIL: email });
 
     // On success return true
-    return email && email.indexOf("@") > -1 && isFormValidated;
+    // return email && email.indexOf("@") > -1 && isFormValidated;
   }
 
 
@@ -64,7 +64,7 @@ const NewsletterForm = ( { status, message, onValidated }) => {
           />
         </div>
         <div>
-          <button className="btn btn-primary" onClick={handleFormSubmit}>
+          <button type='submit' className='btn btn-primary'>
             Zapisz Się
           </button>
         </div>
